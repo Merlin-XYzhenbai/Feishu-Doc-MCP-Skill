@@ -1,0 +1,34 @@
+{
+  "name": "@merlin-working/feishu-remote-mcp-skill",
+  "version": "1.0.0",
+  "description": "Installer package for Feishu Remote MCP skill (Codex/agent usage).",
+  "private": false,
+  "license": "UNLICENSED",
+  "bin": {
+    "install-feishu-remote-mcp-skill": "bin/install-skill.js"
+  },
+  "files": [
+    "bin",
+    "feishu-remote-mcp/SKILL.md",
+    "feishu-remote-mcp/agents",
+    "feishu-remote-mcp/references",
+    "feishu-remote-mcp/scripts/feishu_delete_risk_check.py",
+    "feishu-remote-mcp/scripts/feishu_mcp_presets.py",
+    "feishu-remote-mcp/scripts/feishu_oauth_callback_server.py",
+    "feishu-remote-mcp/scripts/feishu_skill_healthcheck.py",
+    "feishu-remote-mcp/scripts/feishu_token_store.py",
+    "feishu-remote-mcp/scripts/feishu_uat_oauth.py",
+    "feishu-remote-mcp/scripts/lark_mcp_http.py",
+    "README.md"
+  ],
+  "keywords": [
+    "feishu",
+    "lark",
+    "mcp",
+    "skill",
+    "codex"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

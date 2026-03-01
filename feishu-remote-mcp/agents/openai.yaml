@@ -1,0 +1,13 @@
+interface:
+  display_name: "Feishu Remote MCP"
+  short_description: "Connect developer agents to Feishu MCP over HTTP."
+  default_prompt: "Use $feishu-remote-mcp and run preset workflows first, then use raw MCP calls only when needed."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "feishu-remote-mcp"
+      description: "Feishu official remote MCP endpoint"
+      transport: "streamable_http"
+      url: "https://mcp.feishu.cn/mcp"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,10 @@
+# Never publish local credentials or caches
+feishu-remote-mcp/config/
+**/__pycache__/
+*.pyc
+
+# Never publish git metadata
+.git/
+.gitignore
+
+# Keep publication narrow; package.json "files" is primary gate.
